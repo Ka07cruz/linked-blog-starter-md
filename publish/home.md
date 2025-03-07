@@ -7,3 +7,5 @@ Hello World !!
 Olá Mundo !!
 
 Bem Vindo ao Obsidian integrado com Github !!
+
+Próxima Página [[pagina1]]
