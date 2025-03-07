@@ -1,8 +1,4 @@
 # linked-blog-starter-md
-These are the markdown files for the [linked-blog-starter](https://linked-blog-starter-md-alpha-topaz.vercel.app/home) repository
+Esse é o link para o blog: [linked-blog-starter](https://linked-blog-starter-md-alpha-topaz.vercel.app/home) 
 
-Teste Github
-
-Teste Github 2
-
-Bem Vindo ao Obsidian integrado com Github
+Obs.: Projeto em desenvolvimento 
