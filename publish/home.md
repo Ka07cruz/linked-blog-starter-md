@@ -16,7 +16,12 @@ Esses são modelos numéricos utilizados na dinâmica dos fluidos computacional 
 - [[Modelo de tensão superficial]]
 - [[Modelos de Turbulência e Método de especificação de turbulência]]
 ## Sobre Malha 
+A malha em CFD (Computational Fluid Dynamics) é a discretização do domínio de estudo em pequenas células, onde as equações de escoamento são resolvidas numericamente. Ela pode ser estruturada (grade regular), não estruturada (elementos irregulares) ou híbrida, influenciando diretamente a precisão e o custo computacional da simulação. Um refinamento adequado da malha em regiões de alto gradiente, como bordas e interfaces, melhora a captura dos fenômenos físicos sem gerar um excesso de elementos que aumente o tempo de processamento.
+
+Em CFD, a malha deve ter uma quantidade de elementos suficiente para capturar corretamente os fenômenos do escoamento, equilibrando precisão e custo computacional. O refinamento deve ser maior em regiões de alto gradiente, como fronteiras sólidas e interfaces de fases. O parâmetro adimensional **Y+** é crucial para definir a resolução da malha próxima às paredes, influenciando a escolha dos modelos de turbulência. Para resolver completamente a camada limite, a malha deve garantir **Y+ ≈ 1**, enquanto valores entre **30 e 300** permitem o uso de funções de parede, reduzindo a necessidade de refinamento excessivo.
+### Como saber a quantidade elemento de malha ?
 - [[Quantidade de elementos da malha]]
+### Parâmetro adimensional Y+
 - [[Y+]]
 
 ## Critério 
