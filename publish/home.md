@@ -8,7 +8,8 @@ Escoamento bifásico (Two Phase Flow) é o movimento simultâneo de duas fases d
 Para facilitar as pesquisas acadêmicas, foram selecionados e organizados diversos sites e repositórios que disponibilizam artigos científicos e trabalhos de conclusão de curso (TCC).
 - [[Sites para Pesquisar]]
 
-## Modelos de Equações 
+## Modelos Numéricos 
+Esses são modelos numéricos utilizados na dinâmica dos fluidos computacional (CFD) para simular escoamentos complexos, especialmente em cenários com múltiplas fases e turbulência.
 - [[Modelo Euleriano]]
 - [[Modelo VOF]]
 - [[Modelo de turbulência K-omega SST]]
