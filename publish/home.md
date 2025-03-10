@@ -11,19 +11,26 @@ Bem Vindo ao Obsidian integrado com Github !!
 ## Sites para Iniciar a Pesquisa
 [[Sites para Pesquisar]]
 
+## Modelos de Equações 
 [[Modelo Euleriano]]
 [[Modelo VOF]]
 [[Modelo de turbulência K-omega SST]]
 [[Modelo de tensão superficial]]
 [[Modelos de Turbulência e Método de especificação de turbulência]]
+
+## Sobre Malha 
 [[Quantidade de elementos da malha]]
 [[Y+]]
+
+## Critério 
 [[Critério de Estabilidade]]
+
+## Problemas Comuns
 [[Como resolver erro de ponto flutuante]]
 [[Velocidade Magnitude]]
 
-Casos Simulados
+## Casos Simulados
 [[Tubo Horizontal]] 
 
-Adicionais
+## Adicionais
 [[Sites informações adicionais ]]
