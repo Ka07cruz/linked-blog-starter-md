@@ -4,6 +4,8 @@ excerpt: Create your own template or use someone else's. Changing the template i
 ---
 Escoamento bifásico (Two Phase Flow) é o movimento simultâneo de duas fases distintas (líquido-líquido, líquido-gás, sólido-líquido ou sólido-gás) dentro de um meio, como em tubulações ou canais. Esse tipo de escoamento é comum em indústrias como petróleo, química e energia, onde pode envolver misturas como água e vapor, óleo e gás, ou partículas suspensas em líquidos. A interação entre as fases influencia características como pressão, velocidade e padrões de fluxo, tornando sua análise complexa e essencial para projetos e operações eficientes. 
 
+Importante mencionar que boa parte do site apenas foram reunidas as informações que fui buscando ao longo da pesquisa, entretanto os links originais de onde vieram as informações estão mencionados no final de cada página. Esse site é apenas minhas notas do Obsidian que são publicadas automaticamente. 
+
 ## Sites para Iniciar a Pesquisa
 Para facilitar as pesquisas acadêmicas, foram selecionados e organizados diversos sites e repositórios que disponibilizam artigos científicos e trabalhos de conclusão de curso (TCC).
 - [[Sites para Pesquisar]]

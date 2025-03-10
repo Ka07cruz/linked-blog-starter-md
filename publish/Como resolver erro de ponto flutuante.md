@@ -1,8 +1,19 @@
-Hoje quero guiar vocês por todas as possibilidades que podem resolver esse problema, e, no final, darei uma solução para esse problema que 99% funcionará com todos os casos e resolverá todos os problemas relacionados a esse problema , especialmente na malha dinâmica
 
-First of all, you need to make sure these things: 1-Your mesh is set to CFD, fluent and NOT mechanical 2- Your mesh should have at least a good skewness and orthogonal array value 3- you have unstructured mesh, with tringles arrangement 4-your mesh should show all the bodies of your geometry without cuts 5-If it did not initialize properly, reset the setting and do it again 6- for transient application, take PISO as your method 7- your timesteps must be less than 0.005
+Esse guia vai ajudar na solução de ponto flutuante. Tudo isso é mencionado no link no final da pagina, apenas copie para manter as informações que envolvia CFD. 
+### Primeiros passos para garantir uma configuração adequada:
 
-Finalmente, a configuração real que realmente pode resolver este problema na malha dinâmica é ativar Configurações de atualização implícitas "Para problemas transitórios, você pode ativar a atualização implícita da malha quando quiser que a malha dinâmica seja atualizada durante um intervalo de tempo (em vez de apenas no início de um intervalo de tempo). Esse recurso é benéfico apenas para aplicativos nos quais o movimento da malha depende do campo de fluxo (por exemplo, casos que usam o solucionador de seis DOF ou envolvem interação fluido-estrutura).Para tais aplicações, ter o movimento da malha atualizado dentro do intervalo de tempo com base na solução de fluxo convergente resulta em um acoplamento mais forte entre o solução de fluxo e o movimento da malha, e leva a uma execução do solucionador mais robusta. A atualização implícita da malha permite executar simulações que de outra forma não poderiam ser resolvidas ou exigiriam um intervalo de tempo excessivamente pequeno." citado no centro de ajuda da Ansys A principal razão para esse erro geralmente não é a malha que não é boa o suficiente, mas o software não consegue lidar com as mudanças na malha dinâmica, então os desenvolvedores adicionaram esta técnica (Configurações de atualização implícitas) para resolver esse problema.
+1. Certifique-se de que sua malha está configurada para **CFD, Fluent** e não para **Mechanical**.
+2. A malha deve apresentar **bons valores de skewness e ortogonalidade**.
+3. Utilize **malha não estruturada** com **arranjo triangular**.
+4. A malha deve exibir **todas as partes da geometria sem cortes**.
+5. Se a inicialização falhar, **reinicie as configurações e tente novamente**.
+6. Para aplicações transitórias, utilize o método **PISO**.
+7. O **timestep** deve ser menor que **0,005**.
+### Solução definitiva para problemas em malha dinâmica
+
+A configuração essencial para resolver esse problema é **ativar as Configurações de Atualização Implícitas**. Para problemas transitórios, essa opção permite que a atualização da malha ocorra durante o intervalo de tempo, em vez de apenas no início. Esse recurso é particularmente útil quando o movimento da malha depende do campo de fluxo, como em casos que utilizam o **solucionador de seis graus de liberdade (6DOF)** ou envolvem **interação fluido-estrutura (FSI)**.
+
+Habilitar a **atualização implícita da malha** melhora o acoplamento entre a solução de fluxo e o movimento da malha, tornando a simulação mais estável e robusta. Segundo a documentação do **Ansys Help Center**, essa técnica permite resolver simulações que, de outra forma, falhariam ou exigiriam timesteps excessivamente pequenos. O erro mais comum nesses casos não está na qualidade da malha, mas sim na dificuldade do software em lidar com variações dinâmicas, razão pela qual os desenvolvedores introduziram essa funcionalidade como solução.
 
 ### Fonte
 [](https://www.researchgate.net/post/What-is-the-Error-floating-point-exception-Error-Object-f-in-fluent-Ansys#:~:text=A%20floating%20point%20exception%20is,some%20property%20close%20to%20zero)[https://www.researchgate.net/post/What-is-the-Error-floating-point-exception-Error-Object-f-in-fluent-Ansys#:~:text=A](https://www.researchgate.net/post/What-is-the-Error-floating-point-exception-Error-Object-f-in-fluent-Ansys#:~:text=A) floating point exception is,some property close to zero
