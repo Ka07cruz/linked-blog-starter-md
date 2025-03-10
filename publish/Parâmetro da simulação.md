@@ -8,11 +8,11 @@ Gravity > -9,81 m/s^2
 
 ### Materials
 
-Fluid > air > Fluent Database >Water-liquid(h2o<l>) > copy > close
+Fluid > air > Fluent Database >Water-liquid(H2O liquido) > copy > close
 
 ## Models
 
-###Multiphase
+### Multiphase
 
 Model> Volume of Fluid
 
@@ -96,9 +96,7 @@ segundos / time step = iteração
 
 itaração * time step = segundos
 
-[https://docs.google.com/spreadsheets/d/1qM_HFzDX5MVcflAKOmBMQkF_Y5Z_X-bxzzAxaiTx1z8/edit#gid=0](https://docs.google.com/spreadsheets/d/1qM_HFzDX5MVcflAKOmBMQkF_Y5Z_X-bxzzAxaiTx1z8/edit#gid=0)
-
-### Autosave Solution after every few iterations
+Autosave Solution after every few iterations
 
 File > Write > Autosave
 
