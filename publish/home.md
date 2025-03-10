@@ -24,7 +24,8 @@ Em CFD, a malha deve ter uma quantidade de elementos suficiente para capturar co
 ### Parâmetro adimensional Y+
 - [[Y+]]
 
-## Critério 
+## Critério
+O critério de estabilidade em CFD determina as condições necessárias para que a solução numérica das equações de escoamento permaneça estável e convergente. Um dos mais conhecidos é o **Critério de Courant-Friedrichs-Lewy (CFL)**, que define o limite de tempo de integração em métodos explícitos, garantindo que a informação não se propague além de um elemento da malha em um passo de tempo. Para métodos implícitos, restrições de estabilidade podem ser menos rígidas, mas o refinamento da malha e a escolha dos esquemas numéricos ainda influenciam a precisão e a robustez da simulação.
 - [[Critério de Estabilidade]]
 
 ## Problemas Comuns
