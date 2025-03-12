@@ -4,16 +4,18 @@ O **modelo volume de fluido (VOF)** é uma técnica que consiste em analisar as 
 
 ![[Equação da ContinuidadeVOF.png]]
 Equação para Latex:
-
-$$ \frac{\partial \rho}{\partial t} + \nabla \centerdot (\rho \overline{u}) = 0 $$
+````
+\frac{\partial \rho}{\partial t} + \nabla \centerdot (\rho \overline{u}) = 0
+````
 
 **Equação do momentum**
 
 ![[Equação do Momentu VOF.png]]
 
 Equação para Latex:
-$$ \frac{\partial}{\partial t} (\rho \overline{u}) + \nabla \centerdot (\rho \overline{u} \overline{u}) = - \nabla P + \rho g + \nabla (\tau + \tau ^t) $$
-
+````
+\frac{\partial}{\partial t} (\rho \overline{u}) + \nabla \centerdot (\rho \overline{u} \overline{u}) = - \nabla P + \rho g + \nabla (\tau + \tau ^t)
+````
 ### Referencias
 
 [https://www.sciencedirect.com/science/article/abs/pii/B9780128219553000029](https://www.sciencedirect.com/science/article/abs/pii/B9780128219553000029)
