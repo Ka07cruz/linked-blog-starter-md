@@ -13,24 +13,24 @@ No video irá explicar os tipos de turbulence specification method, sendo o mais
 ### Reynolds Number
 ![[Re.png]]
 Equação para Latex:
-
-$$ Re = \frac{U*d}{v} $$
+````
+Re = \frac{U*d}{v}
+````
 ### Turbulent Intensity (I)
 ![[Turbulent Intensity.png]]
 Equação para Latex:
-
-
-$$ I = 0.16*Re^{\frac{-1}{8}} $$
+````
+I = 0.16*Re^{\frac{-1}{8}}
+````
 
 Pode determinar a intensity pela equação ou usar o padrão que varia de 1% a 5%
 
 ### Hydraulic Diameter (dh)
 ![[dh.png]]
 Equação para Latex:
-
-
-$$ d_h = d $$
-
+````
+d_h = d
+````
 ### **Defining Boundary Conditions for Turbulent flows in Ansys Fluent - Lesson 3**
 
 [https://courses.ansys.com/index.php/courses/turbulence-modeling-in-ansys-fluent/lessons/defining-boundary-conditions-for-turbulent-flows-in-ansys-fluent-lesson-3/](https://courses.ansys.com/index.php/courses/turbulence-modeling-in-ansys-fluent/lessons/defining-boundary-conditions-for-turbulent-flows-in-ansys-fluent-lesson-3/)
