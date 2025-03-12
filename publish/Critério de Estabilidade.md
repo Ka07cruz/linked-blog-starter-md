@@ -1,10 +1,3 @@
-$$ C = u_G\frac{\Delta t}{\Delta x} $$
-
-- $C$ - número de Courant (0,25 para esse estudo)
-- $u_G$ - velocidade total do gás e é calculada pelo modelo Drift-Flux
-- $\Delta t$ - passo de tempo
-- $\Delta x$ - comprimento da célula da malha
-
 ### Por que o critério CFL é importante?
 
 Imagine que você está tentando simular o fluxo de água em um rio. Se você usar passos de tempo muito grandes, a água pode parecer pular obstáculos ou fluir através de paredes em sua simulação. Isso ocorre porque o esquema numérico não é capaz de capturar com precisão a física do fluxo em grandes passos de tempo.O critério CFL fornece uma diretriz para escolher um passo de tempo que seja suficientemente pequeno para capturar as características importantes do fluxo, mas ainda suficientemente grande para ser computacionalmente eficiente.
@@ -12,6 +5,16 @@ Imagine que você está tentando simular o fluxo de água em um rio. Se você us
 ### O que acontece se o critério CFL for violado?
 
 Se o critério CFL for violado, a simulação numérica pode se tornar instável e produzir resultados imprecisos ou até mesmo não físicos. No pior caso, a simulação pode travar completamente.
+![[CFL.png]]
+Equação para Latex
+$$ C = u_G\frac{\Delta t}{\Delta x} $$
+
+- C - número de Courant (0,25 para esse estudo)
+- uG - velocidade total do gás e é calculada pelo modelo Drift-Flux
+- dt - passo de tempo
+- dx - comprimento da célula da malha
+
+
 
 ### Referencias
 
