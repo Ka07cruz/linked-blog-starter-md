@@ -1,6 +1,5 @@
 O **modelo Euleriano** consiste em resolver as equações de momento e continuidade para cada fase separadamente. 
 O acoplamento é feito por uma única pressão entre as fases.
-
 O número de fases de um escoamento para o Euleriano é limitado apenas por memória e comportamento de convergência. 
 Para escoamento complexo o fator mais limitante é comportamento de convergência.
 
