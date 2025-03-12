@@ -11,16 +11,23 @@
 No video irá explicar os tipos de turbulence specification method, sendo o mais ideal para fluxo internos o “intensity and hydraulic diameter fluent”
 
 ### Reynolds Number
+![[Re.png]]
+Equação para Latex:
 
 $$ Re = \frac{U*d}{v} $$
-
 ### Turbulent Intensity (I)
+![[Turbulent Intensity.png]]
+Equação para Latex:
+
 
 $$ I = 0.16*Re^{\frac{-1}{8}} $$
 
 Pode determinar a intensity pela equação ou usar o padrão que varia de 1% a 5%
 
 ### Hydraulic Diameter (dh)
+![[dh.png]]
+Equação para Latex:
+
 
 $$ d_h = d $$
 
