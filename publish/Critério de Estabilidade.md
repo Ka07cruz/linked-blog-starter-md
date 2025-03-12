@@ -7,16 +7,17 @@ Imagine que você está tentando simular o fluxo de água em um rio. Se você us
 Se o critério CFL for violado, a simulação numérica pode se tornar instável e produzir resultados imprecisos ou até mesmo não físicos. No pior caso, a simulação pode travar completamente.
 ![[CFL.png]]
 Equação para Latex
-$$ C = u_G\frac{\Delta t}{\Delta x} $$
+
+````
+C = u_G\frac{\Delta t}{\Delta x} 
+````
 
 - C - número de Courant (0,25 para esse estudo)
 - uG - velocidade total do gás e é calculada pelo modelo Drift-Flux
 - dt - passo de tempo
 - dx - comprimento da célula da malha
 
-
-
-### Referencias
+  ### Referencias
 
 1. [https://www.sciencedirect.com/science/article/abs/pii/S0017931022001466](https://www.sciencedirect.com/science/article/abs/pii/S0017931022001466)
 2. [https://www.sciencedirect.com/science/article/abs/pii/S0142727X17307865](https://www.sciencedirect.com/science/article/abs/pii/S0142727X17307865)

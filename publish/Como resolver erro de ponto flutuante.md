@@ -1,4 +1,3 @@
-
 Esse guia vai ajudar na solução de ponto flutuante. Tudo isso é mencionado no link no final da pagina, apenas copie para manter as informações que envolvia CFD. 
 ### Primeiros passos para garantir uma configuração adequada:
 
