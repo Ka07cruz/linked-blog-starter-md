@@ -8,9 +8,16 @@ Fluido não pode ser invíscido
 
 **Equação da Continuidade**
 
-$$ \frac{\partial}{\partial t} (\alpha _i \rho _i) + \nabla \centerdot (\alpha _i \rho _i \overline{u} _i) = 0 $$
+![[Equação da Continuidade.png]]
 
-**Equação do Momentu**
+ Equação para Latex:
+ $$ \frac{\partial}{\partial t} (\alpha _i \rho _i) + \nabla \centerdot (\alpha _i \rho _i \overline{u} _i) = 0 $$
+
+**Equação do Momento**
+
+![[Equação do Momentu.png]]
+
+Equação para Latex:
 
 $$ \frac{\partial}{\partial t} (\alpha _i \rho _i \overline{u} _i) + \nabla \centerdot (\alpha _i \rho _i \overline{u} _i \overline {u} _i) = - \alpha _i \nabla P + \alpha _i g + \nabla [\alpha _i (\tau _i + \tau^t _i) + M_i ] $$
 

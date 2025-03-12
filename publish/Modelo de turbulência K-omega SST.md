@@ -10,7 +10,7 @@ $$ \frac{D \rho k}{Dt} = \tau_{ij} \frac{\partial u_i}{\partial x_j} - \beta^* \
 
 $$ \frac{D \rho \omega}{Dt} = \frac{\gamma \rho}{\mu t}\tau_{ij} \frac{\partial u_i}{\partial x_j} - \beta \rho \omega ^2 + \frac{\partial}{\partial x_j} [(\mu + \alpha _\omega \mu_t)\frac{\partial \omega}{\partial x_j}] + 2(1 - F_1)\frac{\rho \alpha _{\omega^2}}{\omega} \frac{\partial k}{\partial x_j} \frac{\partial \omega}{\partial x_j} $$
 
-Referências
+### Referencias
 
 CFD SIMULATION OF TWO-PHASE VERTICAL FLOW WITH DIFFERENT TYPES OF INJECTION
 

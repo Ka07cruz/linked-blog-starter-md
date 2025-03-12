@@ -13,7 +13,7 @@ Imagine que você está tentando simular o fluxo de água em um rio. Se você us
 
 Se o critério CFL for violado, a simulação numérica pode se tornar instável e produzir resultados imprecisos ou até mesmo não físicos. No pior caso, a simulação pode travar completamente.
 
-### Fontes
+### Referencias
 
 1. [https://www.sciencedirect.com/science/article/abs/pii/S0017931022001466](https://www.sciencedirect.com/science/article/abs/pii/S0017931022001466)
 2. [https://www.sciencedirect.com/science/article/abs/pii/S0142727X17307865](https://www.sciencedirect.com/science/article/abs/pii/S0142727X17307865)

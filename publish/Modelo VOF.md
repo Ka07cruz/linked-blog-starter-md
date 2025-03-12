@@ -8,10 +8,9 @@ $$ \frac{\partial \rho}{\partial t} + \nabla \centerdot (\rho \overline{u}) = 0 
 
 $$ \frac{\partial}{\partial t} (\rho \overline{u}) + \nabla \centerdot (\rho \overline{u} \overline{u}) = - \nabla P + \rho g + \nabla (\tau + \tau ^t) $$
 
-**Referencias
+### Referencias
 
 [https://www.sciencedirect.com/science/article/abs/pii/B9780128219553000029](https://www.sciencedirect.com/science/article/abs/pii/B9780128219553000029)
-
 [https://support.ptc.com/help/creo/creo_pma/r9.0/portuguese_br/index.html#page/simulate/cfd/SpclConsiderationsVOF.html](https://support.ptc.com/help/creo/creo_pma/r9.0/portuguese_br/index.html#page/simulate/cfd/SpclConsiderationsVOF.html)
 
 COMPARISON BETWEEN EULERIAN AND VOF MODELS FOR TWO-PHASE FLOW ASSESSMENT IN VERTICAL PIPES
