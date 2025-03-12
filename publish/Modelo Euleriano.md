@@ -1,6 +1,8 @@
-O **modelo Euleriano** consiste em resolver as equações de momento e continuidade para cada fase separadamente. O acoplamento é feito por uma única pressão entre as fases.
+O **modelo Euleriano** consiste em resolver as equações de momento e continuidade para cada fase separadamente. 
+O acoplamento é feito por uma única pressão entre as fases.
 
-O número de fases de um escoamento para o Euleriano é limitado apenas por memória e comportamento de convergência. Para escoamento complexo o fator mais limitante é comportamento de convergência.
+O número de fases de um escoamento para o Euleriano é limitado apenas por memória e comportamento de convergência. 
+Para escoamento complexo o fator mais limitante é comportamento de convergência.
 
 Outra limitação do Euleriano é a dificuldade em diferenciar multifásico fluido-fluido do fluido-solido (granulado)
 
@@ -22,7 +24,8 @@ Fluido não pode ser invíscido
 
 Equação para Latex:
 ````
-\frac{\partial}{\partial t} (\alpha _i \rho _i \overline{u} _i) + \nabla \centerdot (\alpha _i \rho _i \overline{u} _i \overline {u} _i) = - \alpha _i \nabla P + \alpha _i g + \nabla [\alpha _i (\tau _i + \tau^t _i) + M_i ]
+\frac{\partial}{\partial t} (\alpha _i \rho _i \overline{u} _i) + \nabla \centerdot (\alpha _i \rho _i \overline{u} _i \overline {u} _i) =
+- \alpha _i \nabla P + \alpha _i g + \nabla [\alpha _i (\tau _i + \tau^t _i) + M_i ]
 ````
 
 ### Referencias
