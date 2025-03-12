@@ -13,7 +13,7 @@ Fluido não pode ser invíscido
  Equação para Latex:
  $$ \frac{\partial}{\partial t} (\alpha _i \rho _i) + \nabla \centerdot (\alpha _i \rho _i \overline{u} _i) = 0 $$
 
-**Equação do Momento**
+**Equação do Momentum**
 
 ![[Equação do Momentu.png]]
 
