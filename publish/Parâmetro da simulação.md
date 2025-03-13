@@ -1,36 +1,44 @@
-Obs.: Diagrama de Padrões precisar ser na horizontal tbm haha
+Esses parâmetros de simulação são para escoamento interno em tubo horizontal com modelo VOF
 
-Double Precision
+### Solver Options
+- Double Precision
 
-Time >Transient
-
-Gravity > -9,81 m/s^2
-
+Click "Start"
+### General
+1. Time >Transient
+2. Gravity > -9,81 m/s^2
 ### Materials
 
-Fluid > air > Fluent Database >Water-liquid(H2O liquido) > copy > close
+- Fluid > air > Fluent Database >Water-liquid(H2O liquido) > copy > close
 
 ## Models
 
-### Multiphase
-
-Model> Volume of Fluid
-
-Formulation > Explicit
+1. Multiphase>Model> Volume of Fluid
+2. Formulation > Explicit
 
 Obs.: Explícito oferece mais precisão, mas os intervalos de tempo podem precisar ser menores; o implícito permite intervalos de tempo maiores e estado estacionário. Você provavelmente desejará algo explícito, portanto, talvez seja necessário revisar o tamanho do intervalo de tempo.
 
-Obs.: O VOF explícito está convergindo melhor em comparação com o VOF implícito, mas mostra uma "exceção de ponto flutuante" depois de algum tempo (após alguma porcentagem de conclusão).
-
-[https://forum.ansys.com/forums/topic/explicit-vof-vs-implicit-vof-for-laser-melting/](https://forum.ansys.com/forums/topic/explicit-vof-vs-implicit-vof-for-laser-melting/)
+Obs.: O VOF explícito está convergindo melhor em comparação com o VOF implícito, mas mostra uma "exceção de ponto flutuante" depois de algum tempo (após alguma porcentagem de conclusão). Pode ser visto no [link](https://forum.ansys.com/forums/topic/explicit-vof-vs-implicit-vof-for-laser-melting/](https://forum.ansys.com/forums/topic/explicit-vof-vs-implicit-vof-for-laser-melting/)
 
 Obs.: O apesar da formulação explicita trazer melhores resultados, por calcular todos parâmetros do tempo anterior, essa precisão aumenta o tempo de simulação. Já a formulação implícita não utiliza todos os parâmetros para calcular os tempos futuros, diminui na precisão mas tbm diminui o tempo de simulação. Como não interessa os período transiente pode-se utilizar.
 
-Body Implicit Force Formulation > Implicit Body Force
+3. Body Implicit Force Formulation > Implicit Body Force
 
-Phase > phase-1 = water, phase-2 = air
+Na aba Phases
+
+- Phases > phase-1 = water, phase-2 = air
 
 Obs.: Ordem das fases não importa, mas prefiro colocar a fazer que vai preencher tubo primeiro. Nesse caso a agua vai preencher e será visto fração do vazio do ar
+
+Na aba Phase Interaction
+
+1. Surface Tension Coefficient> constant> 0.073 N/m
+
+Obs.: Valor para água
+
+2. Global Options> Surface Tension Force Modeling
+3. Model> Continuum Surface Force
+4. Adhesion Options> Wall Adhesion
 
 ### Energy
 
@@ -38,24 +46,36 @@ Off ( tudo é isotérmico, então não precisa)
 
 ### Viscous
 
-Transition SST k-w
+- Transition SST k-w
 
-OBS.: Ele é melhor porque consegue fazer a transição de k-e e k-w. Os três são para escoamento turbulento. Guilherme fala isso no tcc dele
-
-[https://www.cfd-online.com/Forums/main/75554-use-k-epsilon-k-omega-models.html](https://www.cfd-online.com/Forums/main/75554-use-k-epsilon-k-omega-models.html)
+OBS.: Ele é melhor porque consegue fazer a transição de k-e e k-w. Os três são para escoamento turbulento. Pode ser visto no [link]([https://www.cfd-online.com/Forums/main/75554-use-k-epsilon-k-omega-models.html](https://www.cfd-online.com/Forums/main/75554-use-k-epsilon-k-omega-models.html)
 
 ### Boundary Conditions
 
-inlet
+#### Inlet air (Phase> mixture)
 
-Phase air = 1
+1. Velocity Magnitude> Velocidade do diagrama de padrões
 
-Phase water = 0
+Obs.: Diagrama de Padrões de Padrão de escoamento precisar ser na horizontal, pois existe para vertical e inclinado. 
 
-Obs.: Não é na mistura e sim na phase de cada um
+2. Turbulence> Specification Method> Intensity and Hydraulic Diameter
+3. Turbulent Intensity> 5%
+4. Hydraulic Diameter> 26 mm
+##### Inlet air (Phase> air) 
 
-método de especificação de turbulência: intermitente, intensidade e diâmetro hidráulico
+- Multiphase> Volume Fraction>  1
+#### Inlet water (Phase> mixture)
 
+- Mesmo processo da Inlet air
+##### Inlet water (Phase> air)
+
+- Multiphase> Volume Fraction>  0
+#### Outlet (Phase> mixture)
+1. Turbulence> Specification Method> Intensity and Hydraulic Diameter
+2. Turbulent Intensity> 5%
+3. Hydraulic Diameter> 26 mm
+##### Outlet (Phase> air)
+- Multiphase> Backflow Volume Fraction>  0
 ### Methods
 
 Scheme > PISO
