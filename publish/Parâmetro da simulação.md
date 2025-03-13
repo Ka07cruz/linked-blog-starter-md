@@ -76,45 +76,25 @@ Obs.: Diagrama de Padrões de Padrão de escoamento precisar ser na horizontal, 
 3. Hydraulic Diameter> 26 mm
 ##### Outlet (Phase> air)
 - Multiphase> Backflow Volume Fraction>  0
+
+#### Wall (Phase> mixture)
+1. Wall Motion> Stationary Wall
+2. Shear Condition> No slip
+3. Wall Adhesion> Contact Angles> 60 
+Obs.: Valor para água
 ### Methods
-
-Scheme > PISO
-
+- Scheme > PISO
 ### Controls
-
-[https://www.cfd-online.com/Forums/fluent/44367-what-under-relaxation-factor.html](https://www.cfd-online.com/Forums/fluent/44367-what-under-relaxation-factor.html)
-
+- Não é preciso mexer, pode ser usado os fatores de relaxamento como no [video]([https://www.cfd-online.com/Forums/fluent/44367-what-under-relaxation-factor.html](https://www.cfd-online.com/Forums/fluent/44367-what-under-relaxation-factor.html)
 ### Initialization
 
 Initialization Methods > Hybrid
 
-Obs.: Li em algum lugar que Hybrid é mais realista a análise
-
-[https://courses.ansys.com/index.php/courses/solution-setup-in-ansys-fluent/lessons/how-to-initialize-the-solution-in-ansys-fluent-lesson-5/](https://courses.ansys.com/index.php/courses/solution-setup-in-ansys-fluent/lessons/how-to-initialize-the-solution-in-ansys-fluent-lesson-5/)
-
+Obs.: Li no [video]([https://courses.ansys.com/index.php/courses/solution-setup-in-ansys-fluent/lessons/how-to-initialize-the-solution-in-ansys-fluent-lesson-5/](https://courses.ansys.com/index.php/courses/solution-setup-in-ansys-fluent/lessons/how-to-initialize-the-solution-in-ansys-fluent-lesson-5/)) fala que Hybrid é mais realista a análise
 ### Run Calculation
+Para  começar a simulação precisa calcular o Passo de tempo (dx) pelo [[Critério de Estabilidade]]. No começo tinha muita duvida sobre CFL e Número de Courant (C) até achar esse [site]([https://uxcfd.com/2012/11/16/numero-de-courant-cfl-e-condicao-cfl/](https://uxcfd.com/2012/11/16/numero-de-courant-cfl-e-condicao-cfl/)
 
-Numero de Courant - o _número de volumes da malha atravessados por uma perturbação naquele passo de tempo_.
-
-[https://uxcfd.com/2012/11/16/numero-de-courant-cfl-e-condicao-cfl/](https://uxcfd.com/2012/11/16/numero-de-courant-cfl-e-condicao-cfl/)
-
-### Descobrindo time step
-
-$C = Jg*deltaT/deltaX$
-
-C - numero de courant
-
-Jg - velocidade da phase ar
-
-deltaT - time step
-
-deltaX - menor elemento de malha
-
-Obs.: Essa equação da estabilidade para a simulação. Se o time step for muito pequeno vai dar floating point e se for muito grande vai dar divergência.
-
-segundos / time step = iteração
-
-itaração * time step = segundos
+Para facilitar as análise crie uma tabela que gera os passo de tempo e numero de passo de tempo, porque muda para diferentes tamanho de elemento de malha e velocidade superficial. Link para [tabela](https://docs.google.com/spreadsheets/d/1G2iAOQAPcQ7JpwevCkmBhT1wlSGFV_2o5JiT1iEVv74/edit?usp=sharing)
 
 Autosave Solution after every few iterations
 
