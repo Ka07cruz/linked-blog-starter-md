@@ -91,15 +91,50 @@ Obs.: Valor para água
 Initialization Methods > Hybrid
 
 Obs.: Li no [video]([https://courses.ansys.com/index.php/courses/solution-setup-in-ansys-fluent/lessons/how-to-initialize-the-solution-in-ansys-fluent-lesson-5/](https://courses.ansys.com/index.php/courses/solution-setup-in-ansys-fluent/lessons/how-to-initialize-the-solution-in-ansys-fluent-lesson-5/)) fala que Hybrid é mais realista a análise
+
+### Surfaces
+- Botão direito > New > Line/Rake > definir linha para análise
+	- x = 0.63 m 
+	- y = 0.026
+
+### Report Definitions 
+- Botão direito > New > Surface Report > Facet Average
+	- Filed Variable
+		- Phases
+		- Volume fraction
+	- Phase > air
+	- Surfaces > nome da linha criada 
+
+### Monitors 
+- Report Files > Botão direito > New 
+	- Available Report Definitions > nome o report definitions 
+	- Get data Every > Write Instantaneous Values
+
+### Graphics 
+- Contours > 
+	- Contours of > 
+		- Phases
+		- Volume fraction
+- Phase > Air
+
+### Calculation Activities
+- Solution Animations > Storage Type > PNG Image
+- Animation Object > Animation View > front
+
 ### Run Calculation
 Para  começar a simulação precisa calcular o Passo de tempo (dx) pelo [[Critério de Estabilidade]]. No começo tinha muita duvida sobre CFL e Número de Courant (C) até achar esse [site]([https://uxcfd.com/2012/11/16/numero-de-courant-cfl-e-condicao-cfl/](https://uxcfd.com/2012/11/16/numero-de-courant-cfl-e-condicao-cfl/)
 
 Para facilitar as análise crie uma tabela que gera os passo de tempo e numero de passo de tempo, porque muda para diferentes tamanho de elemento de malha e velocidade superficial. Link para [tabela](https://docs.google.com/spreadsheets/d/1G2iAOQAPcQ7JpwevCkmBhT1wlSGFV_2o5JiT1iEVv74/edit?usp=sharing)
 
+### Autosave
 Autosave Solution after every few iterations
 
-File > Write > Autosave
+- File > Write > Autosave
+	- Save Data File Every = 3
+	- Save Associated Case Files > Only if Modified
+	- File Storage Options > Retain Only the Most Recent Files
+		- Maximum Number of Date Files = 5
 
-Obs.: Importante marcar a opção de deixar os 5 ultimos arquivos
+Obs.: Importante marcar a opção de deixar os 5 últimos arquivos
 
 [https://www.youtube.com/watch?app=desktop&v=4JT--GT0XU0](https://www.youtube.com/watch?app=desktop&v=4JT--GT0XU0)
