@@ -40,7 +40,7 @@ A **densidade de área da interface** mede quanta área de interface existe entr
 
 ### Como o AIAD funciona?
 
-O modelo AIAD ajusta automaticamente a densidade de área da interface dependendo do regime de fluxo presente. Ele usa equações algébricas para interpolar entre diferentes modelos de fluxo (estratificado, disperso etc.), garantindo transições suaves e físicas entre eles.
+O modelo AIAD ajusta automaticamente a densidade de área da interface dependendo do regime de fluxo presente. Ele usa equações algébricas para interpolar entre diferentes modelos de fluxo (estratificado, disperso etc.), garantindo transições suaves e físicas entre eles. Ele basicamente permite os modelos Euleriano e VOF trabalharem juntos.
 
 ### Onde o AIAD é aplicado?
 
