@@ -30,6 +30,7 @@ O critério de estabilidade em CFD determina as condições necessárias para qu
 ## Problemas Comuns
 - [[Como resolver erro de ponto flutuante]]
 - [[The following project file may not have been backed up...]]
+- [[FFF.1-Setup-Output.cas.h5 not found !]]
 ## Casos Simulados
 - [[Tubo Horizontal]] 
 ## Adicionais
