@@ -34,7 +34,8 @@ O critério de estabilidade em CFD determina as condições necessárias para qu
 ## Casos Simulados
 - [[Tubo Horizontal]]
 ## Tutoriais
-- [[Tubo Vertical]]
+- [[Theory and CFD simulation of Two-phase flow in vertical conduit using ANSYS Fluent]]
+- [[Using the Mixture and Eulerian Multiphase Models]]
 ## Adicionais
 - [[Tempo de Resolução ou Solving Time]]
 - [[Sites informações adicionais]]
