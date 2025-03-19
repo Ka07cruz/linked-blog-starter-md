@@ -1,6 +1,5 @@
 - A geometria da malha pode ser feita no Space Claim ou no Design Modeler. Para minha malha usei Space e depois importei para Modeler para criar seção na geometria.
-
-[https://www.youtube.com/watch?v=AHVxgndCMZE](https://www.youtube.com/watch?v=AHVxgndCMZE)
+	- [https://www.youtube.com/watch?v=AHVxgndCMZE](https://www.youtube.com/watch?v=AHVxgndCMZE)
 
 Obs.: O video mostra como faz a seção
 
@@ -23,7 +22,5 @@ Obs.: O video mostra como faz a seção
     
     Ou
 - Mesh > Statistics > Elements
-    
-    [https://doc.comsol.com/5.5/doc/com.comsol.help.comsol/comsol_ref_mesh.15.15.html](https://doc.comsol.com/5.5/doc/com.comsol.help.comsol/comsol_ref_mesh.15.15.html)
-    
-    Obs.: Multizone para mesh
+    - [https://doc.comsol.com/5.5/doc/com.comsol.help.comsol/comsol_ref_mesh.15.15.html](https://doc.comsol.com/5.5/doc/com.comsol.help.comsol/comsol_ref_mesh.15.15.html)
+     Obs.: Multizone para mesh
