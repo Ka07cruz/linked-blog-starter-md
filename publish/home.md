@@ -34,5 +34,5 @@ O critério de estabilidade em CFD determina as condições necessárias para qu
 ## Casos Simulados
 - [[Tubo Horizontal]] 
 ## Adicionais
-[[Tempo de Resolução ou Solving Time]]
-[[Sites informações adicionais]]
+- [[Tempo de Resolução ou Solving Time]]
+- [[Sites informações adicionais]]
