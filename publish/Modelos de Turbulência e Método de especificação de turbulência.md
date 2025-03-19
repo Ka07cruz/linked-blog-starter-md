@@ -1,9 +1,7 @@
 ## Turbulence specification method
 
 ### **Turbulent Setup and Solution — Lesson 5**
-
-[https://courses.ansys.com/index.php/courses/laminar-and-turbulent-jets/lessons/turbulent-setup-and-solution-lesson-5/](https://courses.ansys.com/index.php/courses/laminar-and-turbulent-jets/lessons/turbulent-setup-and-solution-lesson-5/)
-
+- [https://courses.ansys.com/index.php/courses/laminar-and-turbulent-jets/lessons/turbulent-setup-and-solution-lesson-5/](https://courses.ansys.com/index.php/courses/laminar-and-turbulent-jets/lessons/turbulent-setup-and-solution-lesson-5/)
 No video irá explicar os tipos de turbulence specification method, sendo o mais ideal para fluxo internos o “intensity and hydraulic diameter fluent”
 
 ### Reynolds Number
