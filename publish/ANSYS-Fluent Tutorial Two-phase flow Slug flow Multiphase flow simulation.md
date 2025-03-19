@@ -1,0 +1,1 @@
+No video [ANSYS-Fluent Tutorial Two-phase flow  Slug flow Multiphase flow simulation](https://www.youtube.com/watch?v=TsN708rGIHg) mostra um caso de escoamento bifásico em micro canal. Por ser menor que o caso que estou testando, os padrões de escoamento aparecem antes. Para um configuração semelhante de Setup. 

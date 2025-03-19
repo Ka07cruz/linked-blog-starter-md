@@ -31,11 +31,13 @@ O critério de estabilidade em CFD determina as condições necessárias para qu
 - [[Como resolver erro de ponto flutuante]]
 - [[The following project file may not have been backed up...]]
 - [[FFF.1-Setup-Output.cas.h5 not found !]]
-## Casos Simulados
-- [[Tubo Horizontal]]
 ## Tutoriais
+Aqui estão alguns tutoriais semelhantes ao modelo de escoamento bifásico horizontal:
 - [[Theory and CFD simulation of Two-phase flow in vertical conduit using ANSYS Fluent]]
 - [[Using the Mixture and Eulerian Multiphase Models]]
+- [[ANSYS-Fluent Tutorial Two-phase flow Slug flow Multiphase flow simulation]]
+## Casos Simulados
+- [[Tubo Horizontal]]
 ## Adicionais
 - [[Tempo de Resolução ou Solving Time]]
 - [[Sites informações adicionais]]
