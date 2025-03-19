@@ -3,7 +3,7 @@ O **Y+** é um parâmetro adimensional usado em CFD para avaliar a resolução d
 - [https://courses.ansys.com/index.php/courses/turbulence-modeling-in-ansys-fluent/lessons/defining-boundary-conditions-for-turbulent-flows-in-ansys-fluent-lesson-3/](https://courses.ansys.com/index.php/courses/turbulence-modeling-in-ansys-fluent/lessons/defining-boundary-conditions-for-turbulent-flows-in-ansys-fluent-lesson-3/)
 Obs.:Vale a pena dar uma olhada nesse site
 
-### __[CFD] What is the difference between y+ and y* ?
+### [CFD] What is the difference between y+ and y* ?
 
 Os parâmetros são parecidos porém análise coisa diferentes: 
 - [https://www.youtube.com/watch?v=nSdVaF3JnI0](https://www.youtube.com/watch?v=nSdVaF3JnI0)
