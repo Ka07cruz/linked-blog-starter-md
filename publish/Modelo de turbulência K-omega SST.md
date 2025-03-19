@@ -22,9 +22,6 @@ Equação para Latex:
 2(1 - F_1)\frac{\rho \alpha _{\omega^2}}{\omega} \frac{\partial k}{\partial x_j} \frac{\partial \omega}{\partial x_j}
 ````
 ### Referencias
-
-CFD SIMULATION OF TWO-PHASE VERTICAL FLOW WITH DIFFERENT TYPES OF INJECTION
-
-[https://www.simscale.com/docs/simulation-setup/global-settings/k-omega-sst/](https://www.simscale.com/docs/simulation-setup/global-settings/k-omega-sst/)
-
-[https://www.cfd-online.com/Wiki/SST_k-omega_model](https://www.cfd-online.com/Wiki/SST_k-omega_model)
+- CFD SIMULATION OF TWO-PHASE VERTICAL FLOW WITH DIFFERENT TYPES OF INJECTION
+- [https://www.simscale.com/docs/simulation-setup/global-settings/k-omega-sst/](https://www.simscale.com/docs/simulation-setup/global-settings/k-omega-sst/)
+- [https://www.cfd-online.com/Wiki/SST_k-omega_model](https://www.cfd-online.com/Wiki/SST_k-omega_model)

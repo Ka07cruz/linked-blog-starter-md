@@ -28,8 +28,8 @@ Equação para Latex:
 d_h = d
 ````
 ### **Defining Boundary Conditions for Turbulent flows in Ansys Fluent - Lesson 3**
-
-[https://courses.ansys.com/index.php/courses/turbulence-modeling-in-ansys-fluent/lessons/defining-boundary-conditions-for-turbulent-flows-in-ansys-fluent-lesson-3/](https://courses.ansys.com/index.php/courses/turbulence-modeling-in-ansys-fluent/lessons/defining-boundary-conditions-for-turbulent-flows-in-ansys-fluent-lesson-3/)
+Tutorial da Ansys para aprender definir condições de contorno 
+- [https://courses.ansys.com/index.php/courses/turbulence-modeling-in-ansys-fluent/lessons/defining-boundary-conditions-for-turbulent-flows-in-ansys-fluent-lesson-3/](https://courses.ansys.com/index.php/courses/turbulence-modeling-in-ansys-fluent/lessons/defining-boundary-conditions-for-turbulent-flows-in-ansys-fluent-lesson-3/)
 
 Obs.: Vale a pena dar uma olhada nesses sites
 
@@ -37,4 +37,3 @@ Obs.: Vale a pena dar uma olhada nesses sites
 2. [](https://www.ansys.com/content/dam/amp/2022/february/asset-creation/best-practices-campaign/Best%20Practice-Rans%20turbulence%20modeling%20in%20Ansys%20CFD.pdf)[https://www.ansys.com/content/dam/amp/2022/february/asset-creation/best-practices-campaign/Best](https://www.ansys.com/content/dam/amp/2022/february/asset-creation/best-practices-campaign/Best) Practice-Rans turbulence modeling in Ansys CFD.pdf
 3. [https://www.afs.enea.it/project/neptunius/docs/fluent/html/th/node42.htm#13815](https://www.afs.enea.it/project/neptunius/docs/fluent/html/th/node42.htm#13815)
 4. [https://www.researchgate.net/publication/354383135_Turbulence_Models_Commonly_Used_in_CFD](https://www.researchgate.net/publication/354383135_Turbulence_Models_Commonly_Used_in_CFD)
-Obs.: Vale olhar esse site

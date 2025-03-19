@@ -7,6 +7,5 @@ Equação para Latex:
 F_{vol} = \sigma _{ij} \frac{\rho k_i \nabla \alpha_i}{\frac{1}{2}(\rho _i + \rho _j)}
 ```
 ### Referencias
-[https://www.researchgate.net/publication/4681191_A_Continuum_Method_for_Modeling_Surface_Tension](https://www.researchgate.net/publication/4681191_A_Continuum_Method_for_Modeling_Surface_Tension)
-
-CFD SIMULATION OF TWO-PHASE VERTICAL FLOW WITH DIFFERENT TYPES OF INJECTION
+- https://www.researchgate.net/publication/4681191_A_Continuum_Method_for_Modeling_Surface_Tension](https://www.researchgate.net/publication/4681191_A_Continuum_Method_for_Modeling_Surface_Tension)
+- CFD SIMULATION OF TWO-PHASE VERTICAL FLOW WITH DIFFERENT TYPES OF INJECTION
