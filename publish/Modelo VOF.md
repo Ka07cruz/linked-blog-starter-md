@@ -18,9 +18,7 @@ Equação para Latex:
 ````
 ### Referencias
 
-[https://www.sciencedirect.com/science/article/abs/pii/B9780128219553000029](https://www.sciencedirect.com/science/article/abs/pii/B9780128219553000029)
-[https://support.ptc.com/help/creo/creo_pma/r9.0/portuguese_br/index.html#page/simulate/cfd/SpclConsiderationsVOF.html](https://support.ptc.com/help/creo/creo_pma/r9.0/portuguese_br/index.html#page/simulate/cfd/SpclConsiderationsVOF.html)
-
-COMPARISON BETWEEN EULERIAN AND VOF MODELS FOR TWO-PHASE FLOW ASSESSMENT IN VERTICAL PIPES
-
-Relatório do Guilherme
+- [https://www.sciencedirect.com/science/article/abs/pii/B9780128219553000029](https://www.sciencedirect.com/science/article/abs/pii/B9780128219553000029)
+- https://support.ptc.com/help/creo/creo_pma/r9.0/portuguese_br/index.html#page/simulate/cfd/SpclConsiderationsVOF.html](https://support.ptc.com/help/creo/creo_pma/r9.0/portuguese_br/index.html#page/simulate/cfd/SpclConsiderationsVOF.html)
+- https://www.researchgate.net/publication/323110324_Comparison_between_eulerian_and_vof_models_for_two-phase_flow_assessment_in_vertical_pipes
+- TCC do Guilherme: https://eventos.utfpr.edu.br//sicite/sicite2020/paper/view/6209
