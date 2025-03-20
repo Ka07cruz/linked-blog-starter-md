@@ -2,10 +2,14 @@
 title: Two Phase Flow
 excerpt: Create your own template or use someone else's. Changing the template is a matter of updating one line
 ---
+## Sobre
+Olá. Meu nome é Kauê Cruz, estudante de engenharia mecânica na UTFPR Campus Cornélio Procópio. Inicie como voluntário para pesquisar sobre escoamento bifásico em 2023. Tive um pouco de dificuldade no começo com esse estudo, devido a complexidade da análise numérica e do tema escoamento multifásico. 
+
+Eu comecei fazer notas para me ajudar a lembra das configurações das simulações no Notion. Entretanto um amigo começou a fazer um estudo semelhante ao meu então compartilhei as notas, porém tinha limite de notas compartilhadas no Notion. Foi quando precisei mudar para Obsidian que me ajudou bastante por ter notas ilimitadas.
+## Introdução
 Importante mencionar que boa parte do site apenas foram reunidas as informações que fui buscando ao longo da pesquisa, entretanto os links originais de onde vieram as informações estão mencionados no final de cada página do parágrafo. Esse site é apenas minhas notas do Obsidian que são publicadas automaticamente. 
 
 Escoamento bifásico (Two Phase Flow) é o movimento simultâneo de duas fases distintas (líquido-líquido, líquido-gás, sólido-líquido ou sólido-gás) dentro de um meio, como em tubulações ou canais. Esse tipo de escoamento é comum em indústrias como petróleo, química e energia, onde pode envolver misturas como água e vapor, óleo e gás, ou partículas suspensas em líquidos. A interação entre as fases influencia características como pressão, velocidade e padrões de fluxo, tornando sua análise complexa e essencial para projetos e operações eficientes. 
-
 
 ## Sites para Iniciar a Pesquisa
 Para facilitar as pesquisas acadêmicas, foram selecionados e organizados diversos sites e repositórios que disponibilizam artigos científicos e trabalhos de conclusão de curso (TCC).
