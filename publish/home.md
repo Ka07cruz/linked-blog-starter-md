@@ -47,3 +47,4 @@ Aqui estão alguns tutoriais semelhantes ao modelo de escoamento bifásico horiz
 ## Adicionais
 - [[Tempo de Resolução ou Solving Time]]
 - [[Sites informações adicionais]]
+- [[Exportando]]
