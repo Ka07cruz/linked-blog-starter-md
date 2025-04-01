@@ -26,4 +26,4 @@ Obs.: Para analisar os parâmetros de saída precisa por um monitor no tubo (lin
 2. Objetivo é deixar a pressão igual da atmosfera então vai ter queda de pressão dentro do tubo, pressões máximas nas entradas
 
 ## Parâmetros
-[[Parâmetro da simulação]]
+[[Parâmetros Euleriano]]

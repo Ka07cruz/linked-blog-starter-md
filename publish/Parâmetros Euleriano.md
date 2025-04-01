@@ -1,4 +1,4 @@
-Esses parâmetros de simulação são para escoamento interno em tubo horizontal com modelo VOF
+Esses parâmetros de simulação são para escoamento interno em tubo horizontal com modelo Euleriano
 
 ### Solver Options
 - Double Precision
@@ -13,22 +13,15 @@ Click "Start"
 
 ## Models
 
-1. Multiphase>Model> Volume of Fluid
-2. Formulation > Explicit
-
-Obs.: Explícito oferece mais precisão, mas os intervalos de tempo podem precisar ser menores; o implícito permite intervalos de tempo maiores e estado estacionário. Você provavelmente desejará algo explícito, portanto, talvez seja necessário revisar o tamanho do intervalo de tempo.
-
-Obs.: O VOF explícito está convergindo melhor em comparação com o VOF implícito, mas mostra uma "exceção de ponto flutuante" depois de algum tempo (após alguma porcentagem de conclusão). Pode ser visto no [link](https://forum.ansys.com/forums/topic/explicit-vof-vs-implicit-vof-for-laser-melting/](https://forum.ansys.com/forums/topic/explicit-vof-vs-implicit-vof-for-laser-melting/)
-
-Obs.: O apesar da formulação explicita trazer melhores resultados, por calcular todos parâmetros do tempo anterior, essa precisão aumenta o tempo de simulação. Já a formulação implícita não utiliza todos os parâmetros para calcular os tempos futuros, diminui na precisão mas tbm diminui o tempo de simulação. Como não interessa os período transiente pode-se utilizar.
-
-3. Body Implicit Force Formulation > Implicit Body Force
+1. Multiphase>Model> Eulerian
+2. Regime Transition Modeling > AIAD
+3. 2. Formulation > Implicit
 
 Na aba Phases
 
 - Phases > phase-1 = water, phase-2 = air
 
-Obs.: Ordem das fases não importa, mas prefiro colocar a fazer que vai preencher tubo primeiro. Nesse caso a agua vai preencher e será visto fração do vazio do ar
+Obs.: Para Diameter na Phase Air, deixar Default 
 
 Na aba Phase Interaction
 
@@ -51,19 +44,21 @@ Off ( tudo é isotérmico, então não precisa)
 OBS.: Ele é melhor porque consegue fazer a transição de k-e e k-w. Os três são para escoamento turbulento. Pode ser visto no [link]([https://www.cfd-online.com/Forums/main/75554-use-k-epsilon-k-omega-models.html](https://www.cfd-online.com/Forums/main/75554-use-k-epsilon-k-omega-models.html)
 
 ### Boundary Conditions
-
-#### Inlet air (Phase> mixture)
-
-1. Velocity Magnitude> Velocidade do diagrama de padrões
-
-Obs.: Diagrama de Padrões de Padrão de escoamento precisar ser na horizontal, pois existe para vertical e inclinado. 
-
-2. Turbulence> Specification Method> Intensity and Hydraulic Diameter
-3. Turbulent Intensity> 5%
-4. Hydraulic Diameter> 26 mm
 ##### Inlet air (Phase> air) 
+- **Momentum**
 
-- Multiphase> Volume Fraction>  1
+Velocity Magnitude> Velocidade do diagrama de padrões
+
+1. Turbulence> Specification Method> Intensity and Hydraulic Diameter
+2. Turbulent Intensity> 5%
+3. Hydraulic Diameter> 26 mm
+
+- **Multiphase**
+
+Volume Fraction = 1 
+##### Inlet air (Phase> Water) 
+
+Default Ou Velocity = 0
 
 --------------------------------------------------------------------------
 #### Inlet water (Phase> mixture)
@@ -72,20 +67,20 @@ Obs.: Diagrama de Padrões de Padrão de escoamento precisar ser na horizontal, 
 ##### Inlet water (Phase> air)
 
 - Multiphase> Volume Fraction>  0
-#### Outlet (Phase> mixture)
+#### Outlet (Phase>Water)
 1. Turbulence> Specification Method> Intensity and Hydraulic Diameter
 2. Turbulent Intensity> 5%
 3. Hydraulic Diameter> 26 mm
 ##### Outlet (Phase> air)
-- Multiphase> Backflow Volume Fraction>  0
-
+- Igual ao Phase > Water
 #### Wall (Phase> mixture)
 1. Wall Motion> Stationary Wall
 2. Shear Condition> No slip
 3. Wall Adhesion> Contact Angles> 60 
 Obs.: Valor para água
+
 ### Methods
-- Scheme > PISO
+- Scheme > Coupled
 ### Controls
 - Não é preciso mexer, pode ser usado os fatores de relaxamento como no [video]([https://www.cfd-online.com/Forums/fluent/44367-what-under-relaxation-factor.html](https://www.cfd-online.com/Forums/fluent/44367-what-under-relaxation-factor.html)
 ### Initialization

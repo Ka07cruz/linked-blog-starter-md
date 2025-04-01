@@ -44,6 +44,7 @@ Aqui estão alguns tutoriais semelhantes ao modelo de escoamento bifásico horiz
 - [[ANSYS-Fluent Tutorial Two-phase flow Slug flow Multiphase flow simulation]]
 ## Casos Simulados
 - [[Tubo Horizontal Modelo VOF]]
+- [[Tubo Horizontal Modelo Euleriano]]
 ## Adicionais
 - [[Tempo de Resolução ou Solving Time]]
 - [[Sites informações adicionais]]
