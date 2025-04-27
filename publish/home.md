@@ -6,6 +6,10 @@ excerpt: Create your own template or use someone else's. Changing the template i
 Olá. Meu nome é Kauê Cruz, estudante de engenharia mecânica na UTFPR Campus Cornélio Procópio. Inicie como voluntário para pesquisar sobre escoamento bifásico em 2023. Tive um pouco de dificuldade no começo com esse estudo, devido a complexidade da análise numérica e do tema escoamento multifásico. 
 
 Eu comecei fazer notas para me ajudar a lembra das configurações das simulações no Notion. Entretanto um amigo começou a fazer um estudo semelhante ao meu então compartilhei as notas, porém tinha limite de notas compartilhadas no Notion. Foi quando precisei mudar para Obsidian que me ajudou bastante por ter notas ilimitadas.
+
+## Artigos
+
+
 ## Introdução
 Importante mencionar que boa parte do site apenas foram reunidas as informações que fui buscando ao longo da pesquisa, entretanto os links originais de onde vieram as informações estão mencionados no final de cada página do parágrafo. Esse site é apenas minhas notas do Obsidian que são publicadas automaticamente. 
 
