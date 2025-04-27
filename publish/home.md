@@ -7,11 +7,10 @@ Olá. Meu nome é Kauê Cruz, estudante de engenharia mecânica na UTFPR Campus 
 
 Eu comecei fazer notas para me ajudar a lembra das configurações das simulações no Notion. Entretanto um amigo começou a fazer um estudo semelhante ao meu então compartilhei as notas, porém tinha limite de notas compartilhadas no Notion. Foi quando precisei mudar para Obsidian que me ajudou bastante por ter notas ilimitadas.
 
+![[Contorno_Legenda.png]]
 ## Artigos
 
 Link para [Artigos](https://github.com/Ka07cruz/linked-blog-starter-md/tree/main/Artigos)
-
-![[Contorno_Legenda.png]]
 
 ## Introdução
 Importante mencionar que boa parte do site apenas foram reunidas as informações que fui buscando ao longo da pesquisa, entretanto os links originais de onde vieram as informações estão mencionados no final de cada página do parágrafo. Esse site é apenas minhas notas do Obsidian que são publicadas automaticamente. 
