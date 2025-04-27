@@ -10,6 +10,9 @@ Eu comecei fazer notas para me ajudar a lembra das configurações das simulaç�
 ## Artigos
 
 Link para [Artigos](https://github.com/Ka07cruz/linked-blog-starter-md/tree/main/Artigos)
+
+![[Contorno_Legenda.png]]
+
 ## Introdução
 Importante mencionar que boa parte do site apenas foram reunidas as informações que fui buscando ao longo da pesquisa, entretanto os links originais de onde vieram as informações estão mencionados no final de cada página do parágrafo. Esse site é apenas minhas notas do Obsidian que são publicadas automaticamente. 
 
